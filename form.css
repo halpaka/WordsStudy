@@ -1,0 +1,115 @@
+body {
+    background-color: #b0e2f6;
+    margin: 0;
+}
+
+input {
+    border: 1px solid #333;
+    background-color: #eefafe;
+    border-radius: 3px;
+}
+
+.topBar {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(38, 109, 207);
+    flex-shrink: 0;
+}
+
+#topNum {
+    display: flex;
+    align-items: center;
+    color:white;
+    flex-shrink: 0;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+#numChoice {
+    width: 30px;
+}
+
+#topTextForm {
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-shrink: 0;
+}
+
+#topBtn {
+    flex-shrink: 0;
+}
+
+.textBox {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.btn {
+    width: 50px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#saveDate{
+    color:white;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+#tableArea {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.tableTitle {
+    color:rgb(5, 0, 74);
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.words {
+    margin-bottom: 5px;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 350px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+th {
+    border:1px black solid;
+    background-color: #0157b3;
+    color: white;
+}
+
+td {
+    border:1px black solid;
+    background-color: #e6f6fc;
+}
+
+.buttonCol {
+    width: 26px;
+}
+
+button {
+    border: 1px solid #333;
+    background-color: #eefafe;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}

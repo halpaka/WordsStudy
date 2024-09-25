@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="form.css" />
+    <title>単語登録</title>
+</head>
+<body>
+    <div class="topBar">
+        <div id="topNum">
+            Number of choices (2-10):<input type="number" id="numChoice" value="5" min="2" max="10">
+        </div>
+        <div id="topTextForm">
+            <div class="textBox">Question:<input type="text" id="questionForm"></div>
+            <div class="textBox">Choice:<input type="text" id="choiceForm"></div>
+        </div>
+        <div id="topBtn">
+            <input type="button" value="+" id="add" class="btn">
+            <input type="button" value="Save" id="save" class="btn">
+        </div>
+        <div id="saveDate">
+        </div>
+    </div>
+    <div id="tableArea">
+        <div id="registingTableArea">
+            <div class="tableTitle">
+                Registed Words
+            </div>
+            <table id="registerTable">
+                <tr>
+                    <th>Questions</th>
+                    <th>Choices</th>
+                    <th class="buttonCol">Del</th>
+                </tr>
+                <tbody id="registerArea">
+
+                </tbody>
+            </table>
+        </div>
+
+        <div id="deletingTableArea">
+            <div class="tableTitle">
+                Deleted Words
+            </div>
+            <table id="deleteTable">
+                <tr>
+                    <th>Questions</th>
+                    <th>Choices</th>
+                    <th class="buttonCol">Re</th>
+                </tr>
+                <tbody id="deleteArea">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="form.js"></script>
+</html>

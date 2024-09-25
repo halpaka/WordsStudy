@@ -1,0 +1,18 @@
+{
+  "name": "Brute-force Vocabulary Study",
+  "description": "脳筋による脳筋のための脳筋な単語勉強機能",
+  "version": "1.2.0",
+  "manifest_version": 3,
+  "options_page": "form.html",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [ "https://*/*", "http://*/*" ],
+      "js": [ "script.js" ]
+    }
+  ]
+}
