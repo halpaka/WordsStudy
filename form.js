@@ -31,7 +31,7 @@ function setWord(len){
 //表をロードする関数
 function loadTable(){
     chrome.storage.local.get(["Questions", "Choices", "NumOfCho"], function(value){
-        choiceNum = value.NumOfCho;
+        choiceNum = value.NumOfCho || 5;
         QuestionList = value.Questions || [];
         ChoiceList = value.Choices || [];
         let len = QuestionList.length;
